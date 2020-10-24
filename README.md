@@ -57,13 +57,13 @@ $ cd Kuberentes_Cluster_Terraform_Ansible
 #### Create Infrastructure(VPC,Subnets,Route Tables,EC2 Instnaces ..etc) As A Code Using Terraform Scripts
 ``` sh
 # Initialise to install plugins
-$ terraform init terafrom_scripts/
+$ terraform init teraform_scripts/
 # Validate teffaform scripts
-$ terraform validate terafrom_scripts/
+$ terraform validate teraform_scripts/
 # Plan terraform scripts which will list resouce which will be created
-$ terraform plan terafrom_scripts/
+$ terraform plan teraform_scripts/
 # Apply to create resources
-$ terraform apply --auto-approve terafrom_scripts/
+$ terraform apply --auto-approve teraform_scripts/
 ```
 
 ## Configuration Management
